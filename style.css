@@ -18,3 +18,54 @@ a{
 ul{
     list-style: none;
 }
+header h1{
+    width: 100%;
+    float: left;
+    padding: 16px;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(247deg, rgba(2,0,36,1) 0%, rgba(104,9,121,1) 39%, rgba(0,212,255,1) 100%);
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+nav ul{
+    width: 100%;
+    text-align: center;
+}
+nav ul li{
+    width: 100%;
+    text-align: center;
+    padding: 1.5em;
+    display: inline; 
+    font-size: 700;
+    font-weight: 700;
+}
+
+main{
+    margin: 2em;
+}
+
+main article{
+    width: 100%;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.article h2{
+    margin-bottom: 8px;
+}
+
+
+footer{
+    width: 100%;
+    padding: 16px;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(247deg, rgba(2,0,36,1) 0%, rgba(104,9,121,1) 39%, rgba(0,212,255,1) 100%);
+    text-align: center;
+}
+
